@@ -1,0 +1,12 @@
+// SCSS-level breakpoints for media queries (CSS custom properties can't be
+// used inside @media conditions, so these stay as plain SCSS variables).
+$breakpoint-sm: 480px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+
+@mixin from($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}

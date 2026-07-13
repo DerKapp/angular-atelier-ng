@@ -1,0 +1,22 @@
+<section id="blog" class="blog-teaser" aria-labelledby="blog-teaser-heading">
+  <div class="blog-teaser__panel">
+    <h2 id="blog-teaser-heading">Die neusten Blogs</h2>
+    <p>
+      Unsere neusten Artikel, Neuigkeiten und Tipps rund um Angular und Webentwicklung.
+    </p>
+
+    @if (posts.length > 0) {
+      <div class="blog-teaser__grid">
+        @for (post of posts; track post.link) {
+          <app-blog-card [post]="post" variant="teaser" />
+        }
+      </div>
+    } @else {
+      <p class="blog-teaser__empty">
+        Aktuell sind keine Blogartikel verfügbar. Schauen Sie später wieder vorbei.
+      </p>
+    }
+
+    <a class="blog-teaser__all" routerLink="/blog">Alle weiteren Blogs finden Sie hier →</a>
+  </div>
+</section>

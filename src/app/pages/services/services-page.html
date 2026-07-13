@@ -1,0 +1,12 @@
+<section class="services-page" aria-labelledby="services-page-heading">
+  <div class="services-page__inner">
+    <a class="services-page__back" routerLink="/">&larr; Zurück zur Startseite</a>
+    <h1 id="services-page-heading">Unser Angebot</h1>
+
+    <div class="services-page__grid">
+      @for (service of services; track service.id) {
+        <app-service-card [service]="service" />
+      }
+    </div>
+  </div>
+</section>

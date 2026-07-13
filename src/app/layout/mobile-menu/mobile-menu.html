@@ -1,0 +1,34 @@
+@if (open()) {
+  <div
+    id="mobile-menu"
+    #panel
+    class="mobile-menu"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Hauptnavigation"
+    (keydown.escape)="onKeydownEscape()"
+    (keydown)="onKeydown($event)"
+  >
+    <ul>
+      @for (item of navItems(); track item.label) {
+        <li>
+          <a
+            href="#{{ item.fragment }}"
+            (click)="$event.preventDefault(); onNavigate(item.fragment)"
+            [class.is-active]="activeSection() === item.fragment"
+            [attr.aria-current]="activeSection() === item.fragment ? 'true' : null"
+          >
+            {{ item.label }}
+          </a>
+        </li>
+      }
+    </ul>
+    <a
+      href="/#contact"
+      (click)="$event.preventDefault(); onNavigate('contact')"
+      class="mobile-menu__cta"
+    >
+      Kontakt aufnehmen
+    </a>
+  </div>
+}

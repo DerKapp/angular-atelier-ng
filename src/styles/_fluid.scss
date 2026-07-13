@@ -1,0 +1,12 @@
+@use 'sass:math';
+
+// Fluid clamp() scale, standard linear-interpolation ("Utopia") formula:
+// smoothly interpolates between $min-size at $min-vw and $max-size at $max-vw,
+// clamping outside that range. Viewport bounds default to 25rem (400px, small
+// phone) through 80rem (1280px, desktop) — the same 1280px already used as
+// $breakpoint-xl in _breakpoints.scss.
+@function scale($min-size, $max-size, $min-vw: 25rem, $max-vw: 80rem) {
+  $slope: math.div($max-size - $min-size, $max-vw - $min-vw);
+  $intersection-rem: $min-size - $slope * $min-vw;
+  @return clamp(#{$min-size}, #{$intersection-rem} + #{$slope * 100}vw, #{$max-size});
+}

@@ -1,0 +1,61 @@
+<header class="site-header">
+  <div class="site-header__bar">
+    <a
+      class="site-header__logo"
+      href="/#home"
+      (click)="$event.preventDefault(); navigateToSection('home')"
+      aria-label="Angular Atelier – zur Startseite"
+    >
+      <span class="site-header__mark" aria-hidden="true">[()]</span>
+      <span class="site-header__wordmark">Angular Atelier</span>
+    </a>
+
+    <div class="site-header__desktop">
+      <nav class="site-header__nav" aria-label="Hauptnavigation">
+        <ul>
+          @for (item of navItems; track item.label) {
+            <li>
+              <a
+                href="/#{{ item.fragment }}"
+                (click)="$event.preventDefault(); navigateToSection(item.fragment)"
+                [class.is-active]="activeSection() === item.fragment"
+                [attr.aria-current]="activeSection() === item.fragment ? 'true' : null"
+              >
+                {{ item.label }}
+              </a>
+            </li>
+          }
+        </ul>
+      </nav>
+      <a
+        href="/#contact"
+        (click)="$event.preventDefault(); navigateToSection('contact')"
+        class="site-header__cta"
+      >
+        Kontakt aufnehmen
+      </a>
+    </div>
+
+    <button
+      #toggleButton
+      type="button"
+      class="site-header__toggle"
+      (click)="toggleMenu()"
+      aria-controls="mobile-menu"
+      [attr.aria-expanded]="menuOpen()"
+      [attr.aria-label]="menuOpen() ? 'Menü schliessen' : 'Menü öffnen'"
+    >
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <app-mobile-menu
+    [open]="menuOpen()"
+    [navItems]="navItems"
+    [activeSection]="activeSection()"
+    (navigate)="navigateToSection($event)"
+    (closeRequested)="closeMenu()"
+  />
+</header>

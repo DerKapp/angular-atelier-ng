@@ -1,0 +1,10 @@
+<article class="service-card">
+  <div class="service-card__icon">
+    <img [src]="service().illustration" [alt]="service().illustrationAlt" width="40" height="40" />
+  </div>
+  <div class="service-card__body">
+    <h3>{{ service().title }}</h3>
+    <p class="service-card__tagline">{{ service().tagline }}</p>
+    <p class="service-card__text">{{ service().body }}</p>
+  </div>
+</article>

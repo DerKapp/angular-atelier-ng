@@ -1,0 +1,77 @@
+.about-us {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-section-x) var(--space-section-y);
+}
+
+.about-us__panel {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-panel);
+
+  h2 {
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--space-6);
+  }
+}
+
+.about-us__columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-7);
+}
+
+.about-us__intro {
+  flex: 1 1 24rem;
+  min-width: 16rem;
+
+  p {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-relaxed);
+    color: var(--color-text-soft);
+  }
+}
+
+.about-us__contact a {
+  font-weight: 600;
+}
+
+.about-us__team-photo {
+  height: 11rem;
+  margin-top: var(--space-5);
+}
+
+.about-us__people {
+  flex: 1 1 20rem;
+  min-width: 16rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.about-us__person {
+  display: flex;
+  gap: var(--space-4);
+  background: var(--color-surface-muted);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+
+  h3 {
+    font-size: var(--font-size-base);
+    margin-bottom: var(--space-2);
+  }
+
+  p {
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-relaxed);
+    color: var(--color-text-muted);
+    margin: 0;
+  }
+}
+
+.about-us__avatar {
+  flex: none;
+  width: 3.5rem;
+  height: 3.5rem;
+}

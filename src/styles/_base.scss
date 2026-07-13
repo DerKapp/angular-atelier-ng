@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-normal);
+  color: var(--color-text);
+  background: var(--gradient-page-bg);
+  background-attachment: fixed;
+}
+
+::selection {
+  background: var(--color-lavender-300);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: var(--line-height-tight);
+  font-weight: 700;
+  margin: 0 0 var(--space-4);
+}
+
+p {
+  margin: 0 0 var(--space-4);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: var(--color-brand-ink);
+
+  &:hover {
+    color: var(--color-brand-ink-hover);
+  }
+}
+
+button {
+  font: inherit;
+}
+
+// Visible keyboard focus everywhere — never outline:none without a replacement.
+:focus-visible {
+  outline: 3px solid var(--color-focus-ring);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  border-radius: var(--radius-pill);
+  padding: var(--space-3) var(--space-6);
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition:
+    background var(--transition-fast),
+    color var(--transition-fast),
+    border-color var(--transition-fast),
+    filter var(--transition-fast);
+}
+
+.btn--primary {
+  background: var(--gradient-brand);
+  color: var(--color-surface);
+  box-shadow: var(--shadow-cta-lg);
+
+  &:hover {
+    filter: brightness(1.08);
+    color: var(--color-surface);
+  }
+}
+
+.btn--secondary {
+  background: transparent;
+  color: var(--color-brand-ink);
+  border-color: var(--color-brand-ink);
+
+  &:hover {
+    background: var(--color-surface-muted);
+    color: var(--color-brand-ink-hover);
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

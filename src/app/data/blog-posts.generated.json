@@ -1,0 +1,164 @@
+[
+  {
+    "title": "The dialog that ate my sticky header",
+    "excerpt": "How moving the scroll container fixed a bug I didn’t see coming. Sticky header gets eaten by a modal dialog monster. The symptom We had a page with a sticky hea…",
+    "link": "https://medium.com/@e.kapprafael/the-dialog-that-ate-my-sticky-header-af111030d0ad?source=rss-43dad64495d3------2",
+    "author": "Rafael Kapp",
+    "pubDate": "Wed, 08 Jul 2026 16:01:02 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*q8uq08PELrwp7FsvMZqTRw.png",
+    "readTimeMinutes": 4
+  },
+  {
+    "title": "Why Attribute Selectors Beat Element Selectors for Directives",
+    "excerpt": "We recently rewrote a big chunk of our design system’s directives, swapping element selectors for attribute selectors. It touched a lot of files and fixed a pro…",
+    "link": "https://medium.com/@e.kapprafael/why-attribute-selectors-beat-element-selectors-for-directives-d61175f21634?source=rss-43dad64495d3------2",
+    "author": "Rafael Kapp",
+    "pubDate": "Tue, 02 Jun 2026 11:07:50 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*AcSJ_M5K1WxPXhcPO-lcoA.png",
+    "readTimeMinutes": 2
+  },
+  {
+    "title": "The Register/Unregister Pattern: Elegant Parent-Child Communication in Angular",
+    "excerpt": "How a radio card group taught me to stop querying children and let them speak for themselves. The Problem: Who Are My Children? Angular’s contentChildren, viewC…",
+    "link": "https://medium.com/@schnabelelisa0/the-register-unregister-pattern-elegant-parent-child-communication-in-angular-96c284733410?source=rss-11ed4e872802------2",
+    "author": "Elisa Schnabel",
+    "pubDate": "Thu, 28 May 2026 14:57:56 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*uRhA-6z4JcNOI-LTvdY_Vw.png",
+    "readTimeMinutes": 3
+  },
+  {
+    "title": "The Day I Stopped Using crypto.randomUUID() for Everything in Angular",
+    "excerpt": "Recently I was building a fairly standard Angular component — reusable, clean, accessible. The usual checklist. At some point, I needed to connect a label to an…",
+    "link": "https://medium.com/@schnabelelisa0/the-day-i-stopped-using-crypto-randomuuid-for-everything-in-angular-52970bbb5fe9?source=rss-11ed4e872802------2",
+    "author": "Elisa Schnabel",
+    "pubDate": "Tue, 17 Mar 2026 08:02:47 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*H3-ggGbrqrJORDxyIVxVtw.png",
+    "readTimeMinutes": 1
+  },
+  {
+    "title": "Mocking Child Components in Angular Unit Tests",
+    "excerpt": "Unit tests in Angular should test only the component under test. Avoid pulling in other parts of the application, as that leads to irrelevant failures and uncle…",
+    "link": "https://medium.com/@e.kapprafael/mocking-child-components-in-angular-unit-tests-548fb0ccbdeb?source=rss-43dad64495d3------2",
+    "author": "Rafael Kapp",
+    "pubDate": "Fri, 10 Oct 2025 15:56:51 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*dKi9sjFQXpFObvsGOda7gw.png",
+    "readTimeMinutes": 1
+  },
+  {
+    "title": "Custom Angular Form Controls Made Simple with Signal Forms",
+    "excerpt": "Creating custom form components in Angular has always been powerful — but also painfully verbose . If you’ve ever implemented a custom form control with the tra…",
+    "link": "https://medium.com/@schnabelelisa0/custom-angular-form-controls-made-simple-with-signal-forms-3860dcdb5a03?source=rss-11ed4e872802------2",
+    "author": "Elisa Schnabel",
+    "pubDate": "Fri, 10 Oct 2025 12:11:11 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*-cDvJW3HXACgo8JOtWYz6Q.png",
+    "readTimeMinutes": 5
+  },
+  {
+    "title": "Angular Signal Forms: The most awaited feature is here",
+    "excerpt": "A few days ago, something exciting happened in the Angular world: the experimental Signal Forms feature branch was merged into Angular’s main branch. This unloc…",
+    "link": "https://medium.com/@schnabelelisa0/angular-signal-forms-the-most-awaited-feature-is-here-161fd722f573?source=rss-11ed4e872802------2",
+    "author": "Elisa Schnabel",
+    "pubDate": "Mon, 15 Sep 2025 18:39:32 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*9a6c0v6t98Fj8ENb",
+    "readTimeMinutes": 6
+  },
+  {
+    "title": "Handling Nested Reactive State with Signals",
+    "excerpt": "Created with the help of AI by the Autor With Angulars signals, local state management feels easier than ever. But when you deal with lists of heterogeneous ite…",
+    "link": "https://medium.com/@e.kapprafael/handling-nested-reactive-state-with-signals-9ca5f2258568?source=rss-43dad64495d3------2",
+    "author": "Rafael Kapp",
+    "pubDate": "Thu, 11 Sep 2025 19:38:25 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*7TeHFbVrbJUzgXDcyAeHYA.png",
+    "readTimeMinutes": 3
+  },
+  {
+    "title": "Angular Unit Testing in v20.x: Choosing the Right Test Runner",
+    "excerpt": "Front-end development moves fast — and Angular keeps pace. With v20 and v20.2.0 we’ve seen substantial feature and tooling upgrades (including Signals enhanceme…",
+    "link": "https://javascript.plainenglish.io/angular-unit-testing-in-v20-x-choosing-the-right-test-runner-cafe3f80115e?source=rss-43dad64495d3------2",
+    "author": "Rafael Kapp",
+    "pubDate": "Thu, 04 Sep 2025 19:52:07 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*AYey-AIl5i-GXMxJ-bPk7w.png",
+    "readTimeMinutes": 3
+  },
+  {
+    "title": "Integrating httpRessource with signalStore in Angular",
+    "excerpt": "If you’ve been exploring Angular’s latest reactive patterns, you’ve probably come across ngrx SignalStore and httpResource . These two tools make building react…",
+    "link": "https://medium.com/@schnabelelisa0/integrating-httpresource-with-signalstore-in-angular-4962fdc22a2e?source=rss-11ed4e872802------2",
+    "author": "Elisa Schnabel",
+    "pubDate": "Thu, 04 Sep 2025 06:01:54 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*OqDZuTOUC6Mn6Bh5PU36bg.png",
+    "readTimeMinutes": 3
+  },
+  {
+    "title": "Is Angular’s Resource API the End of httpClient?",
+    "excerpt": "Angular 19 introduced the Resource API (httpResource) — a new signal-based abstraction for working with remote data. Some developers immediately asked the obvio…",
+    "link": "https://medium.com/@schnabelelisa0/is-angulars-resource-api-the-end-of-httpclient-e6f7124a3949?source=rss-11ed4e872802------2",
+    "author": "Elisa Schnabel",
+    "pubDate": "Wed, 20 Aug 2025 05:56:28 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*S3--EFmWQiuyqvwhvv2Gyg.png",
+    "readTimeMinutes": 3
+  },
+  {
+    "title": "Simplifying Angular Material Tables: State Management Without the Mess",
+    "excerpt": "The problem you’ve probably shipped already I keep seeing the same pattern in Angular apps: a Material mat-table whose component file quietly grows past 300 lin…",
+    "link": "https://javascript.plainenglish.io/simplifying-angular-material-tables-state-management-without-the-mess-a66ca3795e8e?source=rss-43dad64495d3------2",
+    "author": "Rafael Kapp",
+    "pubDate": "Fri, 15 Aug 2025 00:52:11 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*riWItd2SsoSmignH3fy4UA.png",
+    "readTimeMinutes": 5
+  },
+  {
+    "title": "Angular Signals & NgRx Signals Package: How to Pick the Right State Management Strategy",
+    "excerpt": "Generated State management is a cornerstone of building maintainable, scalable Angular applications. With Angular’s introduction of Signals, developers now have…",
+    "link": "https://medium.com/@schnabelelisa0/angular-signals-ngrx-signals-package-how-to-pick-the-right-state-management-strategy-3dc9b3644775?source=rss-11ed4e872802------2",
+    "author": "Elisa Schnabel",
+    "pubDate": "Sun, 10 Aug 2025 18:30:45 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*44mj9FyfrMkvre8VyCLkfw.png",
+    "readTimeMinutes": 4
+  },
+  {
+    "title": "When Should You Use NgRx SignalStore’s Events Plugin?",
+    "excerpt": "NgRx Signals is emerging as a modern, lightweight alternative to traditional state management in Angular, centered around Angular Signals. Compared to NgRx Stor…",
+    "link": "https://javascript.plainenglish.io/when-should-you-use-ngrx-signalstores-events-plugin-3a8eee3f4202?source=rss-43dad64495d3------2",
+    "author": "Rafael Kapp",
+    "pubDate": "Thu, 07 Aug 2025 17:31:42 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*kgbtG1Q82fpeeJ2_FKYY1g.jpeg",
+    "readTimeMinutes": 5
+  },
+  {
+    "title": "Why Your Angular @defer Block Isn’t Lazy Loading: 4 Common Pitfalls",
+    "excerpt": "Generated with AI by Author With Angular v17, the introduction of defer blocks (also known as deferrable view s ) brought a powerful and declarative way to impr…",
+    "link": "https://medium.com/@schnabelelisa0/why-your-angular-defer-block-isnt-lazy-loading-4-common-pitfalls-ed50d4fb2578?source=rss-11ed4e872802------2",
+    "author": "Elisa Schnabel",
+    "pubDate": "Sun, 03 Aug 2025 08:14:43 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*QFhkaWA1yu_Bsrc2nPoSaA.png",
+    "readTimeMinutes": 3
+  },
+  {
+    "title": "Rethinking Angular’s v20 Style Guide: A New Compass or a Loose Map?",
+    "excerpt": "Generated With AI From The Autor Angular just got a new style guide in v20 — and it’s not what I expected. I’ve been around long enough to remember when Angular…",
+    "link": "https://medium.com/@e.kapprafael/rethinking-angulars-v20-style-guide-a-new-compass-or-a-loose-map-4cf408829cb8?source=rss-43dad64495d3------2",
+    "author": "Rafael Kapp",
+    "pubDate": "Thu, 31 Jul 2025 07:46:36 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*2-XM0N_RTYXPJvKYjG_Ejw.png",
+    "readTimeMinutes": 5
+  },
+  {
+    "title": "Integrating a Language Switcher in Storybook with Angular and Transloco",
+    "excerpt": "Recently, I was tasked with adding a language switcher to Storybook for an Angular component library. The goal was to test and showcase multilingual support for…",
+    "link": "https://medium.com/@schnabelelisa0/integrating-a-language-switcher-in-storybook-with-angular-and-transloco-fb4b50f57c42?source=rss-11ed4e872802------2",
+    "author": "Elisa Schnabel",
+    "pubDate": "Sun, 27 Jul 2025 13:43:47 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*O42MAHZpzG_G20f3Q2x9cQ.png",
+    "readTimeMinutes": 3
+  },
+  {
+    "title": "Signals vs. RxJS: Understanding Angular’s Dual Approach to Reactivity",
+    "excerpt": "Angular has long relied on RxJS for managing asynchronous events, handling race conditions, and coordinating complex data flows. However, with the introduction…",
+    "link": "https://javascript.plainenglish.io/signals-vs-rxjs-understanding-angulars-dual-approach-to-reactivity-259411e9d40d?source=rss-43dad64495d3------2",
+    "author": "Rafael Kapp",
+    "pubDate": "Thu, 24 Jul 2025 11:18:44 GMT",
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*YoUne6-qxJ2EY5H0_hnDrQ.png",
+    "readTimeMinutes": 8
+  }
+]

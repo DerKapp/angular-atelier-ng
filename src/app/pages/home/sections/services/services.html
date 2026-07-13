@@ -1,0 +1,13 @@
+<section id="services" class="services" aria-labelledby="services-heading">
+  <div class="services__inner">
+    <div class="services__header">
+      <h2 id="services-heading">Angebot</h2>
+    </div>
+    <div class="services__grid">
+      @for (service of services; track service.id) {
+        <app-service-card [service]="service" />
+      }
+    </div>
+    <a class="services__all" routerLink="/services">Alle Leistungen ansehen →</a>
+  </div>
+</section>

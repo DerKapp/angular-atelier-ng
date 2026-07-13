@@ -1,0 +1,28 @@
+.services-page {
+  padding: var(--space-7) var(--space-4) var(--space-9);
+}
+
+.services-page__inner {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+.services-page__back {
+  display: inline-block;
+  margin-bottom: var(--space-5);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-brand-ink);
+}
+
+h1 {
+  font-size: var(--font-size-3xl);
+  color: var(--color-brand-ink);
+  margin-bottom: var(--space-6);
+}
+
+.services-page__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--grid-card-min-width), 1fr));
+  gap: var(--space-5);
+}

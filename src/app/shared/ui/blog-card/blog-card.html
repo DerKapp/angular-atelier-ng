@@ -1,0 +1,42 @@
+<a
+  class="blog-card"
+  [href]="post().link"
+  target="_blank"
+  rel="noopener noreferrer"
+  [attr.aria-label]="accessibleLabel()"
+>
+  <img
+    class="blog-card__thumbnail"
+    [src]="post().thumbnail"
+    alt=""
+    loading="lazy"
+    width="320"
+    height="180"
+  />
+  <div class="blog-card__body">
+    <h3 aria-hidden="true">{{ post().title }}</h3>
+    <p class="blog-card__excerpt" aria-hidden="true">{{ post().excerpt }}</p>
+
+    @if (variant() === 'archive') {
+      <div class="blog-card__meta" aria-hidden="true">
+        <!-- TODO: swap for a plain <img> once the author's portrait photo is supplied -->
+        <app-placeholder-photo
+          class="blog-card__avatar"
+          [label]="post().author"
+          [round]="true"
+          [compact]="true"
+        />
+        <div>
+          <p class="blog-card__author">{{ post().author }}</p>
+          <p class="blog-card__date">
+            {{ formattedDate() }} · {{ post().readTimeMinutes }} Min. Lesezeit
+          </p>
+        </div>
+      </div>
+    } @else {
+      <p class="blog-card__meta-line" aria-hidden="true">
+        {{ post().author }} · {{ formattedDate() }} · {{ post().readTimeMinutes }} Min.
+      </p>
+    }
+  </div>
+</a>

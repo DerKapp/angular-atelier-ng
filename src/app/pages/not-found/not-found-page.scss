@@ -1,0 +1,27 @@
+.not-found {
+  padding: var(--space-9) var(--space-4);
+}
+
+.not-found__inner {
+  max-width: 32rem;
+  margin: 0 auto;
+  text-align: center;
+
+  h1 {
+    font-size: var(--font-size-3xl);
+    color: var(--color-brand-ink);
+  }
+
+  p {
+    color: var(--color-text-muted);
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--space-6);
+  }
+}
+
+.not-found__code {
+  font-size: var(--font-size-4xl);
+  font-weight: 700;
+  color: var(--color-lavender-300);
+  margin: 0;
+}

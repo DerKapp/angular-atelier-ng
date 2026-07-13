@@ -1,0 +1,59 @@
+.pricing {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-section-x) var(--space-section-y);
+}
+
+.pricing__panel {
+  background: var(--gradient-pricing-panel);
+  border-radius: var(--radius-lg);
+  padding: var(--space-pricing-y) var(--space-panel);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-5);
+}
+
+.pricing__intro {
+  h2 {
+    color: var(--color-surface);
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--space-2);
+  }
+
+  p {
+    color: var(--color-pricing-text);
+    font-size: var(--font-size-base);
+    max-width: 28rem;
+    margin: 0;
+  }
+}
+
+.pricing__badge {
+  background: var(--gradient-pricing-badge);
+  color: var(--color-brand-ink);
+  border-radius: var(--radius-md);
+  padding: var(--space-4) var(--space-6);
+  text-align: center;
+}
+
+.pricing__badge-label {
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin: 0 0 var(--space-1);
+}
+
+.pricing__badge-value {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  margin: 0;
+}
+
+.pricing__badge-note {
+  font-size: var(--font-size-xs);
+  opacity: 0.75;
+  margin: var(--space-1) 0 0;
+}

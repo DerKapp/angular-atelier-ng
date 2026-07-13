@@ -1,0 +1,122 @@
+// Design tokens as CSS custom properties, sourced from the finalized Claude Design project
+// ("Angular Atelier redesign", Home.dc.html / Blog.dc.html / Datenschutz.dc.html) — not
+// re-derived. The lavender page background is now the constant canvas the whole site sits
+// on; white "panel" cards float on top of it.
+@use 'fluid';
+
+:root {
+  // Brand colors
+  --color-brand-ink: #2f0064;
+  --color-brand-ink-hover: #45009a;
+  --color-accent-rose: #eda9cb;
+  --color-lavender-300: #c9b8e8;
+
+  // Page & surfaces
+  --color-page-bg: #ece3f8;
+  --color-surface: #ffffff;
+  --color-surface-muted: #faf8fc;
+  --color-border: #ece3f8;
+
+  // Text
+  --color-text: #1c1024;
+  --color-text-soft: #3a2e46;
+  --color-text-muted: #5c5266;
+  // Design source uses #8a7a99 here, but that fails WCAG AA (~3.2:1 on the page
+  // background, ~3.9:1 on white cards) — darkened to ~5:1 while keeping the same
+  // muted-purple character, for footer copyright / blog card meta text.
+  --color-text-faint: #6b5e79;
+
+  // Semantic
+  --color-focus-ring: var(--color-brand-ink);
+  --color-success: #1e7d4a;
+  --color-success-bg: #e5f5eb;
+  --color-error: #b3261e;
+  --color-error-bg: #fce8e6;
+
+  // Spacing scale (rem-based, 4px base unit)
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+
+  // Fluid section-level spacing — replaces the old fixed-value breakpoint jumps,
+  // reusing the same min/max bounds the original design source specified as
+  // literal CSS clamp() (converted here to rem: 16px/1rem base).
+  --space-section-x: #{fluid.scale(1rem, 3.5rem)}; // 16px -> 56px, section horizontal padding
+  --space-section-y: #{fluid.scale(2rem, 5rem)}; // 32px -> 80px, section bottom padding
+  --space-section-y-top: #{fluid.scale(1.5rem, 3.5rem)}; // 24px -> 56px, hero top padding
+  --space-panel: #{fluid.scale(1.5rem, 3.5rem)}; // 24px -> 56px, inner white-panel padding
+  --space-panel-hero: #{fluid.scale(1.375rem, 4rem)}; // 22px -> 64px, hero panel padding
+  --space-pricing-y: #{fluid.scale(1.75rem, 2.75rem)}; // 28px -> 44px, pricing panel vertical
+  --space-header-y: #{fluid.scale(0.75rem, 1.25rem)}; // 12px -> 20px, header vertical padding
+
+  --grid-card-min-width: 16rem;
+
+  // Type scale
+  --font-family-base: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-family-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  // Body/UI text sizes stay fixed — shrinking small text on mobile hurts legibility,
+  // and reading distance doesn't really change between phone and desktop.
+  --font-size-xs: 0.8125rem;
+  --font-size-sm: 0.9375rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  // Heading sizes scale fluidly between a 400px and 1280px viewport instead of
+  // staying static (desktop value unchanged, mobile now shrinks smoothly).
+  --font-size-xl: #{fluid.scale(1.2rem, 1.375rem)};
+  --font-size-2xl: #{fluid.scale(1.5rem, 1.75rem)};
+  --font-size-3xl: #{fluid.scale(1.875rem, 2.25rem)};
+  --font-size-4xl: #{fluid.scale(2.25rem, 2.875rem)};
+  --line-height-tight: 1.15;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.7;
+
+  // Radius
+  --radius-sm: 0.75rem;
+  --radius-md: 1.125rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+  --radius-pill: 999px;
+  --radius-round: 50%;
+
+  // Shadows (rgba(47,0,100,…) — the brand-ink tint used throughout the design)
+  --shadow-nav: 0 4px 20px rgba(47, 0, 100, 0.08);
+  --shadow-card: 0 2px 10px rgba(47, 0, 100, 0.05);
+  --shadow-hero: 0 4px 24px rgba(47, 0, 100, 0.06);
+  --shadow-panel-open: 0 8px 28px rgba(47, 0, 100, 0.12);
+  --shadow-cta-nav: 0 4px 14px rgba(58, 0, 128, 0.28);
+  --shadow-cta-lg: 0 8px 22px rgba(58, 0, 128, 0.22);
+
+  // Gradients
+  --gradient-page-bg: linear-gradient(
+    180deg,
+    #f3ecfb 0%,
+    #ece3f8 22%,
+    #ece3f8 78%,
+    #e6d9f5 100%
+  );
+  --gradient-brand: linear-gradient(135deg, #3a0080, #7d35c9);
+  --gradient-brand-text: linear-gradient(135deg, #2f0064, #8a3fd4);
+  --gradient-hero-accent: linear-gradient(120deg, #3a0080, #a855c4 55%, #d9739f);
+  --gradient-hero-dot: linear-gradient(135deg, #3a0080, #a855c4);
+  --gradient-badge: linear-gradient(135deg, #ece3f8, #f6dcee);
+  --gradient-icon-box: linear-gradient(135deg, #f3ecfb, #faf0f6);
+  --gradient-pricing-panel: linear-gradient(120deg, #2f0064 0%, #4a1090 45%, #7d35c9 100%);
+  --gradient-pricing-badge: linear-gradient(135deg, #f6c9e0, #eda9cb);
+  // Design source uses #dcc9f0 here, but on mobile the intro paragraph spans wide
+  // enough to reach the gradient's lightest stop (#7d35c9), where contrast drops to
+  // ~4.2:1 — lightened to keep the same lavender-white character while passing AA
+  // (~5:1) against that stop.
+  --color-pricing-text: #e8dcf5;
+
+  // Motion (simple, tasteful hover/focus transitions only)
+  --transition-fast: 150ms ease;
+
+  // Layout
+  --content-max-width: 90rem;
+}

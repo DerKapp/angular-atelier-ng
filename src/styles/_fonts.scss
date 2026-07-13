@@ -1,0 +1,9 @@
+// Self-hosted (via @fontsource) instead of the Google Fonts CDN link the design source
+// uses, to keep the site free of third-party runtime requests — same typefaces, same look.
+@use '@fontsource/ibm-plex-sans/400.css' as sans-400;
+@use '@fontsource/ibm-plex-sans/500.css' as sans-500;
+@use '@fontsource/ibm-plex-sans/600.css' as sans-600;
+@use '@fontsource/ibm-plex-sans/700.css' as sans-700;
+@use '@fontsource/ibm-plex-mono/400.css' as mono-400;
+@use '@fontsource/ibm-plex-mono/500.css' as mono-500;
+@use '@fontsource/ibm-plex-mono/600.css' as mono-600;

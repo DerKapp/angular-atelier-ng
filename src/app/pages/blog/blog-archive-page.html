@@ -1,0 +1,16 @@
+<section class="blog-archive" aria-labelledby="blog-archive-heading">
+  <div class="blog-archive__inner">
+    <a class="blog-archive__back" routerLink="/">&larr; Zurück zur Startseite</a>
+    <h1 id="blog-archive-heading">Alle Blogs</h1>
+
+    @if (posts.length > 0) {
+      <div class="blog-archive__grid">
+        @for (post of posts; track post.link) {
+          <app-blog-card [post]="post" />
+        }
+      </div>
+    } @else {
+      <p>Aktuell sind keine Blogartikel verfügbar. Schauen Sie später wieder vorbei.</p>
+    }
+  </div>
+</section>

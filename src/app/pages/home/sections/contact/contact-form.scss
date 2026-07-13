@@ -1,0 +1,107 @@
+.contact {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-section-x) var(--space-section-y);
+}
+
+.contact__panel {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-panel);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-7);
+}
+
+.contact__intro {
+  flex: 1 1 20rem;
+  min-width: 16rem;
+
+  h2 {
+    font-size: var(--font-size-2xl);
+  }
+
+  p {
+    color: var(--color-text-muted);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-relaxed);
+    margin: 0;
+  }
+}
+
+.contact-form {
+  flex: 1 1 24rem;
+  min-width: 16rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.contact-form__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+
+  .contact-form__field {
+    flex: 1 1 10rem;
+  }
+}
+
+.contact-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+
+  label {
+    font-weight: 600;
+    font-size: var(--font-size-sm);
+  }
+
+  input,
+  textarea {
+    font: inherit;
+    padding: var(--space-3) var(--space-4);
+    border: 1px solid var(--color-page-bg);
+    border-radius: var(--radius-sm);
+    background: var(--color-surface-muted);
+    color: var(--color-text);
+    resize: none;
+
+    &:focus-visible {
+      border-color: var(--color-brand-ink);
+    }
+
+    &[aria-invalid='true'] {
+      border-color: var(--color-error);
+    }
+  }
+}
+
+.contact-form__submit {
+  align-self: flex-start;
+  margin-top: var(--space-1);
+}
+
+.contact-form__error {
+  margin: 0;
+  color: var(--color-error);
+  font-size: var(--font-size-xs);
+}
+
+.contact-form__status {
+  margin: var(--space-3) 0 0;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-sm);
+}
+
+.contact-form__status--success {
+  background: var(--color-success-bg);
+  color: var(--color-success);
+}
+
+.contact-form__status--error {
+  background: var(--color-error-bg);
+  color: var(--color-error);
+}

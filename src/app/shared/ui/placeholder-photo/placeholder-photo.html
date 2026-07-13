@@ -1,0 +1,11 @@
+<div
+  class="placeholder-photo"
+  role="img"
+  [attr.aria-label]="'Platzhalter – Foto von ' + label() + ' folgt'"
+>
+  @if (compact()) {
+    <span class="visually-hidden">Foto folgt: {{ label() }}</span>
+  } @else {
+    <span class="placeholder-photo__caption">Foto folgt: {{ label() }}</span>
+  }
+</div>
