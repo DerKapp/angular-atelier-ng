@@ -13,11 +13,12 @@
   padding: var(--space-panel-hero);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   gap: var(--space-5);
 
   @include bp.from(bp.$breakpoint-lg) {
     flex-direction: row;
+    align-items: center;
     gap: var(--space-7);
   }
 }
@@ -36,11 +37,7 @@
 .hero__text {
   flex: 1 1 27.5rem;
   min-width: 20rem;
-  text-align: center;
-
-  @include bp.from(bp.$breakpoint-lg) {
-    text-align: left;
-  }
+  text-align: left;
 
   h1 {
     font-size: var(--font-size-4xl);
@@ -75,16 +72,12 @@
 .hero__trust {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: var(--space-2) var(--space-5);
   list-style: none;
   margin: var(--space-6) 0 0;
   padding: var(--space-5) 0 0 0;
   border-top: 1px solid var(--color-page-bg);
-
-  @include bp.from(bp.$breakpoint-lg) {
-    justify-content: flex-start;
-  }
 
   li {
     display: flex;
@@ -104,10 +97,15 @@
 }
 
 .hero__image {
-  flex: 1 1 23.75rem;
-  min-width: 0;
-  max-width: 100%;
+  width: 100%;
+  max-width: 23.75rem;
   height: auto;
   border-radius: var(--radius-lg);
   margin: 0 auto;
+
+  @include bp.from(bp.$breakpoint-lg) {
+    flex: 1 1 23.75rem;
+    min-width: 0;
+    max-width: 100%;
+  }
 }
