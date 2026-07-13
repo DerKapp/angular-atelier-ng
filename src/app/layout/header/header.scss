@@ -49,12 +49,10 @@
   font-weight: 600;
 }
 
-.site-header__desktop {
+.site-header__nav--full {
   display: none;
-  align-items: center;
-  gap: var(--space-2);
 
-  @include bp.from(bp.$breakpoint-md) {
+  @include bp.from(bp.$breakpoint-lg) {
     display: flex;
   }
 }
@@ -78,6 +76,7 @@
     padding: var(--space-2) var(--space-4);
     border-radius: var(--radius-pill);
     display: inline-block;
+    white-space: nowrap;
     transition: background var(--transition-fast), color var(--transition-fast);
 
     &:hover {
@@ -90,6 +89,12 @@
       box-shadow: var(--shadow-card);
     }
   }
+}
+
+.site-header__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
 }
 
 .site-header__cta {
@@ -112,26 +117,49 @@
 
 .site-header__toggle {
   display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  height: 2.75rem;
+  padding: 0 4px 0 var(--space-4);
+  border: none;
+  border-radius: var(--radius-pill);
+  background: var(--color-surface-muted);
+  cursor: pointer;
+  flex-shrink: 0;
+
+  @include bp.from(bp.$breakpoint-lg) {
+    display: none;
+  }
+}
+
+.site-header__toggle-label {
+  display: none;
+  color: var(--color-brand-ink);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  white-space: nowrap;
+
+  @include bp.from(bp.$breakpoint-sm) {
+    display: inline;
+  }
+}
+
+.site-header__toggle-icon {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 4px;
-  width: 2.75rem;
-  height: 2.75rem;
-  padding: 0;
-  border: none;
+  width: 2.25rem;
+  height: 2.25rem;
   border-radius: var(--radius-round);
-  background: var(--color-surface-muted);
-  cursor: pointer;
-
-  @include bp.from(bp.$breakpoint-md) {
-    display: none;
-  }
+  background: var(--color-surface);
+  flex-shrink: 0;
 
   span {
     display: block;
     height: 2px;
-    width: 1.125rem;
+    width: 1rem;
     background: var(--color-brand-ink);
     border-radius: var(--radius-pill);
   }

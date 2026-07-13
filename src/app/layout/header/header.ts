@@ -1,6 +1,7 @@
 import {
   ChangeDetectionStrategy,
   Component,
+  computed,
   ElementRef,
   inject,
   signal,
@@ -24,6 +25,9 @@ export class Header {
 
   readonly navItems = NAV_ITEMS;
   readonly activeSection = this.#scroll.activeSection;
+  readonly activeLabel = computed(
+    () => this.navItems.find((item) => item.fragment === this.activeSection())?.label ?? '',
+  );
   readonly menuOpen = signal(false);
   readonly toggleButton = viewChild<ElementRef<HTMLButtonElement>>('toggleButton');
 

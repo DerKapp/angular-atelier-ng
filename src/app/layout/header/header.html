@@ -10,23 +10,24 @@
       <span class="site-header__wordmark">Angular Atelier</span>
     </a>
 
-    <div class="site-header__desktop">
-      <nav class="site-header__nav" aria-label="Hauptnavigation">
-        <ul>
-          @for (item of navItems; track item.label) {
-            <li>
-              <a
-                href="/#{{ item.fragment }}"
-                (click)="$event.preventDefault(); navigateToSection(item.fragment)"
-                [class.is-active]="activeSection() === item.fragment"
-                [attr.aria-current]="activeSection() === item.fragment ? 'true' : null"
-              >
-                {{ item.label }}
-              </a>
-            </li>
-          }
-        </ul>
-      </nav>
+    <nav class="site-header__nav site-header__nav--full" aria-label="Hauptnavigation">
+      <ul>
+        @for (item of navItems; track item.label) {
+          <li>
+            <a
+              href="/#{{ item.fragment }}"
+              (click)="$event.preventDefault(); navigateToSection(item.fragment)"
+              [class.is-active]="activeSection() === item.fragment"
+              [attr.aria-current]="activeSection() === item.fragment ? 'true' : null"
+            >
+              {{ item.label }}
+            </a>
+          </li>
+        }
+      </ul>
+    </nav>
+
+    <div class="site-header__actions">
       <a
         href="/#contact"
         (click)="$event.preventDefault(); navigateToSection('contact')"
@@ -34,21 +35,24 @@
       >
         Kontakt aufnehmen
       </a>
-    </div>
 
-    <button
-      #toggleButton
-      type="button"
-      class="site-header__toggle"
-      (click)="toggleMenu()"
-      aria-controls="mobile-menu"
-      [attr.aria-expanded]="menuOpen()"
-      [attr.aria-label]="menuOpen() ? 'Menü schliessen' : 'Menü öffnen'"
-    >
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </button>
+      <button
+        #toggleButton
+        type="button"
+        class="site-header__toggle"
+        (click)="toggleMenu()"
+        aria-controls="mobile-menu"
+        [attr.aria-expanded]="menuOpen()"
+        [attr.aria-label]="menuOpen() ? 'Menü schliessen' : 'Menü öffnen'"
+      >
+        <span class="site-header__toggle-label" aria-hidden="true">{{ activeLabel() }}</span>
+        <span class="site-header__toggle-icon" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
+    </div>
   </div>
 
   <app-mobile-menu
