@@ -7,6 +7,7 @@ export interface NavItem {
 export const NAV_ITEMS: readonly NavItem[] = [
   { label: 'Home', fragment: 'home' },
   { label: 'Angebot', fragment: 'services' },
+  { label: 'Preise', fragment: 'pricing' },
   { label: 'Über Uns', fragment: 'aboutus' },
   { label: 'Blogs', fragment: 'blog' },
   { label: 'Kontakt', fragment: 'contact' },
