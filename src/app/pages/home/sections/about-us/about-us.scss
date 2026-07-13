@@ -38,8 +38,13 @@
 }
 
 .about-us__team-photo {
-  height: 11rem;
+  display: block;
+  height: auto;
+  width: auto;
+  max-width: 100%;
   margin-top: var(--space-5);
+  border-radius: var(--radius-md);
+  object-fit: cover;
 }
 
 .about-us__people {
@@ -74,4 +79,6 @@
   flex: none;
   width: 3.5rem;
   height: 3.5rem;
+  border-radius: var(--radius-round);
+  object-fit: cover;
 }

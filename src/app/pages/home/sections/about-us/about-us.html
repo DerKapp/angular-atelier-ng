@@ -14,14 +14,16 @@
           Kontakt: <a [href]="'mailto:' + contactEmail">{{ contactEmail }}</a>
         </p>
 
-        <!-- TODO: swap for a plain <img> once facetune_26-08-2025-20-37-50.jpeg (team photo) is supplied -->
-        <app-placeholder-photo class="about-us__team-photo" label="Elisa & Rafael" />
+        <img
+          class="about-us__team-photo"
+          src="images/pics/elisa_and_rafeal.webp"
+          alt="Elisa und Rafael"
+        />
       </div>
 
       <div class="about-us__people">
         <article class="about-us__person">
-          <!-- TODO: swap for a plain <img> once facetune_13-10-2025-11-06-51-2.jpg (Elisa's portrait) is supplied -->
-          <app-placeholder-photo class="about-us__avatar" label="Elisa Schnabel" [compact]="true" />
+          <img class="about-us__avatar" src="images/pics/elisa.webp" alt="Elisa Schnabel" />
           <div>
             <h3>Elisa Schnabel</h3>
             <p>
@@ -37,8 +39,7 @@
         </article>
 
         <article class="about-us__person">
-          <!-- TODO: swap for a plain <img> once pxl_20251011_134324932.portrait-edit.jpg (Rafael's portrait) is supplied -->
-          <app-placeholder-photo class="about-us__avatar" label="Rafael Kapp" [compact]="true" />
+          <img class="about-us__avatar" src="images/pics/rafael.webp" alt="Rafael Kapp" />
           <div>
             <h3>Rafael Kapp</h3>
             <p>
