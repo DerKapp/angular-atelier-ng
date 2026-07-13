@@ -27,32 +27,30 @@
       </ul>
     </nav>
 
-    <div class="site-header__actions">
-      <a
-        href="/#contact"
-        (click)="$event.preventDefault(); navigateToSection('contact')"
-        class="site-header__cta"
-      >
-        Kontakt aufnehmen
-      </a>
+    <a
+      href="/#contact"
+      (click)="$event.preventDefault(); navigateToSection('contact')"
+      class="site-header__cta"
+    >
+      Kontakt aufnehmen
+    </a>
 
-      <button
-        #toggleButton
-        type="button"
-        class="site-header__toggle"
-        (click)="toggleMenu()"
-        aria-controls="mobile-menu"
-        [attr.aria-expanded]="menuOpen()"
-        [attr.aria-label]="menuOpen() ? 'Menü schliessen' : 'Menü öffnen'"
-      >
-        <span class="site-header__toggle-label" aria-hidden="true">{{ activeLabel() }}</span>
-        <span class="site-header__toggle-icon" aria-hidden="true">
-          <span></span>
-          <span></span>
-          <span></span>
-        </span>
-      </button>
-    </div>
+    <button
+      #toggleButton
+      type="button"
+      class="site-header__toggle"
+      (click)="toggleMenu()"
+      aria-controls="mobile-menu"
+      [attr.aria-expanded]="menuOpen()"
+      [attr.aria-label]="menuOpen() ? 'Menü schliessen' : 'Menü öffnen'"
+    >
+      <span class="site-header__toggle-label" aria-hidden="true">{{ activeLabel() }}</span>
+      <span class="site-header__toggle-icon" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </button>
   </div>
 
   <app-mobile-menu
