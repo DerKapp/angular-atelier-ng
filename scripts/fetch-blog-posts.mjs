@@ -42,7 +42,9 @@ function extractThumbnail(html) {
 }
 
 function estimateReadTime(html) {
-  const wordCount = stripHtml(html ?? '').split(' ').filter(Boolean).length;
+  const wordCount = stripHtml(html ?? '')
+    .split(' ')
+    .filter(Boolean).length;
   return Math.max(1, Math.round(wordCount / WORDS_PER_MINUTE));
 }
 

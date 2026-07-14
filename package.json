@@ -10,7 +10,10 @@
     "fetch:blog": "node scripts/fetch-blog-posts.mjs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:angular-atelier-ng": "node dist/angular-atelier-ng/server/server.mjs"
+    "serve:ssr:angular-atelier-ng": "node dist/angular-atelier-ng/server/server.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "git config core.hooksPath .githooks"
   },
   "private": true,
   "packageManager": "npm@11.16.0",

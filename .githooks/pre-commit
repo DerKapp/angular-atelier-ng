@@ -1,0 +1,20 @@
+#!/bin/sh
+# Formats staged files with Prettier before commit. Installed via `npm run prepare`
+# (sets core.hooksPath to this folder) so it works without husky/lint-staged.
+
+staged_files=$(git diff --cached --name-only --diff-filter=ACM -- '*.ts' '*.html' '*.scss' '*.css' '*.json' '*.md')
+
+if [ -z "$staged_files" ]; then
+  exit 0
+fi
+
+echo "$staged_files" | xargs npx prettier --write
+
+if [ $? -ne 0 ]; then
+  echo "Prettier failed to format staged files. Commit aborted."
+  exit 1
+fi
+
+echo "$staged_files" | xargs git add
+
+exit 0

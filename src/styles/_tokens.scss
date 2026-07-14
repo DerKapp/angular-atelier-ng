@@ -93,13 +93,7 @@
   --shadow-cta-lg: 0 8px 22px rgba(58, 0, 128, 0.22);
 
   // Gradients
-  --gradient-page-bg: linear-gradient(
-    180deg,
-    #f3ecfb 0%,
-    #ece3f8 22%,
-    #ece3f8 78%,
-    #e6d9f5 100%
-  );
+  --gradient-page-bg: linear-gradient(180deg, #f3ecfb 0%, #ece3f8 22%, #ece3f8 78%, #e6d9f5 100%);
   --gradient-brand: linear-gradient(135deg, #3a0080, #7d35c9);
   --gradient-brand-text: linear-gradient(135deg, #2f0064, #8a3fd4);
   --gradient-hero-accent: linear-gradient(120deg, #3a0080, #a855c4 55%, #d9739f);
