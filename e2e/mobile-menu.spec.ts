@@ -1,9 +1,10 @@
 import { test, expect } from '@playwright/test';
+import { gotoReady } from './utils';
 
 test.use({ viewport: { width: 375, height: 812 } });
 
 test('mobile menu opens and closes', async ({ page }) => {
-  await page.goto('/');
+  await gotoReady(page, '/');
 
   const menu = page.locator('#mobile-menu');
   await expect(menu).toBeHidden();

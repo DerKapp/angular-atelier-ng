@@ -62,20 +62,6 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
 
-      - name: Wait for deployed site to be live
-        run: |
-          url="${{ needs.deploy.outputs.page_url }}"
-          for i in $(seq 1 40); do
-            if curl -fsS "$url" | grep -q "Angular Atelier"; then
-              echo "Site is live at $url"
-              exit 0
-            fi
-            echo "Site not ready yet ($i/40), retrying in 5s..."
-            sleep 5
-          done
-          echo "Site did not become live in time" >&2
-          exit 1
-
       - name: Run e2e tests against deployed site
         run: npm run test:e2e
         env:

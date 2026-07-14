@@ -1,7 +1,8 @@
 import { test, expect } from '@playwright/test';
+import { gotoReady } from './utils';
 
 test('submitting the empty contact form shows validation errors', async ({ page }) => {
-  await page.goto('/#contact');
+  await gotoReady(page, '/#contact');
 
   await page.getByRole('button', { name: 'Kontakt aufnehmen', exact: true }).click();
 
@@ -11,7 +12,7 @@ test('submitting the empty contact form shows validation errors', async ({ page 
 });
 
 test('invalid email format shows an error', async ({ page }) => {
-  await page.goto('/#contact');
+  await gotoReady(page, '/#contact');
 
   const emailInput = page.locator('#contact-email');
   await emailInput.fill('not-an-email');
