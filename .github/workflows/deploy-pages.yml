@@ -27,8 +27,7 @@ jobs:
 
       - run: npm ci
 
-      - name: Build (base href for GitHub Pages project site)
-        run: npm run build -- --base-href /angular-atelier-ng/
+      - run: npm run build
 
       - uses: actions/upload-pages-artifact@v4
         with:
