@@ -1,10 +1,15 @@
 import { defineConfig, devices } from '@playwright/test';
 
-const LOCAL_URL = 'http://localhost:4200';
+const LOCAL_URL = 'http://localhost:4200/';
 
 // If PLAYWRIGHT_BASE_URL is set (CI, pointing at the deployed GitHub Pages
 // site) we test against it directly. Otherwise we default to local ng serve.
-const baseURL = process.env.PLAYWRIGHT_BASE_URL ?? LOCAL_URL;
+// A trailing slash is required: Playwright resolves relative goto() paths
+// against baseURL per the URL spec, where a path starting with "/" is
+// absolute-from-origin and would otherwise discard the Pages subpath
+// (e.g. "/angular-atelier-ng/"), landing on the bare github.io root instead.
+const rawBaseURL = process.env.PLAYWRIGHT_BASE_URL ?? LOCAL_URL;
+const baseURL = rawBaseURL.endsWith('/') ? rawBaseURL : `${rawBaseURL}/`;
 const isLocalTarget = baseURL.startsWith(LOCAL_URL);
 
 export default defineConfig({
