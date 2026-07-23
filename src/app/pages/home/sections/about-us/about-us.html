@@ -1,22 +1,25 @@
 <section id="aboutus" class="about-us" aria-labelledby="about-us-heading">
   <div class="about-us__panel">
-    <h2 id="about-us-heading">Angular Atelier – das sind Elisa und Rafael</h2>
+    <h2 id="about-us-heading" i18n="@@aboutUs.heading">
+      Angular Atelier – das sind Elisa und Rafael
+    </h2>
     <div class="about-us__columns">
       <div class="about-us__intro">
-        <p>
+        <p i18n="@@aboutUs.intro">
           Wir sind Angular-Entwickler:innen aus Bern und haben uns vor einigen Jahren kennengelernt.
           Dabei haben wir schnell gemerkt, dass wir fachlich wie auch persönlich hervorragend
           zusammenarbeiten und sich unser Know-how ideal ergänzt. Deshalb ist es uns besonders
           wichtig, uns bei jedem Auftrag eng miteinander abzustimmen, um die bestmögliche Lösung für
           unsere Kund:innen zu entwickeln.
         </p>
-        <p class="about-us__contact">
+        <p class="about-us__contact" i18n="@@aboutUs.contactLine">
           Kontakt: <a [href]="'mailto:' + contactEmail">{{ contactEmail }}</a>
         </p>
 
         <img
           class="about-us__team-photo"
           src="images/pics/elisa_and_rafeal.webp"
+          i18n-alt="@@aboutUs.teamPhotoAlt"
           alt="Elisa und Rafael"
         />
       </div>
@@ -27,11 +30,15 @@
             <img class="about-us__avatar" src="images/pics/elisa.webp" alt="Elisa Schnabel" />
             <div class="about-us__person-meta">
               <h3>Elisa Schnabel</h3>
-              <p class="about-us__person-fact">7+ Jahre Erfahrung</p>
-              <p class="about-us__person-fact">Bachelor Informatik</p>
+              <p class="about-us__person-fact" i18n="@@aboutUs.elisa.experience">
+                7+ Jahre Erfahrung
+              </p>
+              <p class="about-us__person-fact" i18n="@@aboutUs.elisa.education">
+                Bachelor Informatik
+              </p>
             </div>
           </div>
-          <p class="about-us__person-description">
+          <p class="about-us__person-description" i18n="@@aboutUs.elisa.description">
             In zahlreichen Projekten habe ich den Aufbau und die Wartung von Designsystemen /
             Komponentenbibliotheken mitgestaltet. Ausserdem begleite und bewerte ich als Expertin
             die praktischen Abschlussarbeiten angehender Informatiker:innen. Nebenbei veröffentliche
@@ -44,11 +51,15 @@
             <img class="about-us__avatar" src="images/pics/rafael.webp" alt="Rafael Kapp" />
             <div class="about-us__person-meta">
               <h3>Rafael Kapp</h3>
-              <p class="about-us__person-fact">10+ Jahre Erfahrung</p>
-              <p class="about-us__person-fact">Master Software Engineering</p>
+              <p class="about-us__person-fact" i18n="@@aboutUs.rafael.experience">
+                10+ Jahre Erfahrung
+              </p>
+              <p class="about-us__person-fact" i18n="@@aboutUs.rafael.education">
+                Master Software Engineering
+              </p>
             </div>
           </div>
-          <p class="about-us__person-description">
+          <p class="about-us__person-description" i18n="@@aboutUs.rafael.description">
             Ich verfolge Angular seit den frühen Tagen und teile mein Wissen regelmässig als aktiver
             Autor. Meine Leidenschaft für sauberen Code, nachhaltige Architektur und pragmatische
             Lösungen macht mich zu einem qualifizierten Partner für jedes Angular-Projekt.

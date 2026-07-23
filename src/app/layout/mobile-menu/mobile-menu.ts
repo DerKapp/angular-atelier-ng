@@ -8,9 +8,11 @@ import {
   viewChild,
 } from '@angular/core';
 import { NavItem } from '../../data/nav-items';
+import { LanguageSwitcher } from '../language-switcher/language-switcher';
 
 @Component({
   selector: 'app-mobile-menu',
+  imports: [LanguageSwitcher],
   templateUrl: './mobile-menu.html',
   styleUrl: './mobile-menu.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

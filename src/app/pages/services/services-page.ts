@@ -18,9 +18,8 @@ export class ServicesPage {
 
   constructor() {
     this.#seo.setPage({
-      title: 'Unser Angebot – Angular Atelier',
-      description:
-        'Alle Leistungen von Angular Atelier: Projektberatung, Reviews, Entwicklung, Designsysteme, Migrationen, Schulungen und mehr.',
+      title: $localize`:@@seo.services.title:Unser Angebot – Angular Atelier`,
+      description: $localize`:@@seo.services.description:Alle Leistungen von Angular Atelier: Projektberatung, Reviews, Entwicklung, Designsysteme, Migrationen, Schulungen und mehr.`,
       path: '/services',
     });
   }

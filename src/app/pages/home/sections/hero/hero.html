@@ -1,25 +1,29 @@
 <section id="home" class="hero" aria-labelledby="hero-heading">
   <div class="hero__panel">
     <div class="hero__text">
-      <span class="hero__badge">Angular Beratung · Bern</span>
-      <h1 id="hero-heading">Angular wie im <span class="hero__accent">Atelier</span></h1>
-      <p>
+      <span class="hero__badge" i18n="@@hero.badge">Angular Beratung · Bern</span>
+      <h1 id="hero-heading" i18n="@@hero.heading">
+        Angular wie im <span class="hero__accent">Atelier</span>
+      </h1>
+      <p i18n="@@hero.intro">
         Wir unterstützen Teams und Unternehmen beim Aufbau robuster, wartbarer
         Angular-Architekturen, unabhängig von Grösse oder Branche. Genau wie in einem echten Atelier
         entsteht jede Lösung individuell – ohne technische Schulden, ohne unnötige Abhängigkeiten,
         mit einem klaren Fokus auf Erweiterbarkeit und darauf, dass gute Ideen schnell zu
         funktionierenden Anwendungen werden.
       </p>
-      <button type="button" class="btn btn--primary" (click)="scrollToContact()">
+      <button type="button" class="btn btn--primary" (click)="scrollToContact()" i18n="@@hero.cta">
         Kostenloses Erstgespräch buchen
       </button>
       <ul class="hero__trust">
-        <li><span class="hero__trust-dot" aria-hidden="true"></span>10+ Jahre Angular-Erfahrung</li>
-        <li>
+        <li i18n="@@hero.trust.experience">
+          <span class="hero__trust-dot" aria-hidden="true"></span>10+ Jahre Angular-Erfahrung
+        </li>
+        <li i18n="@@hero.trust.education">
           <span class="hero__trust-dot" aria-hidden="true"></span>Bachelor &amp; Master in
           Informatik
         </li>
-        <li>
+        <li i18n="@@hero.trust.authors">
           <span class="hero__trust-dot" aria-hidden="true"></span>Aktive Fachautoren auf Medium
         </li>
       </ul>
@@ -27,6 +31,7 @@
     <img
       class="hero__image"
       src="images/illustrations/hero.png"
+      i18n-alt="@@hero.imageAlt"
       alt="Illustration eines Angular-Ateliers mit stilisierten Entwicklungswerkzeugen"
       width="1200"
       height="1037"

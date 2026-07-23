@@ -19,9 +19,8 @@ export class BlogArchivePage {
 
   constructor() {
     this.#seo.setPage({
-      title: 'Alle Blogs – Angular Atelier',
-      description:
-        'Alle Artikel von Elisa Schnabel und Rafael Kapp zu Angular und Webentwicklung, gesammelt von Medium.',
+      title: $localize`:@@seo.blog.title:Alle Blogs – Angular Atelier`,
+      description: $localize`:@@seo.blog.description:Alle Artikel von Elisa Schnabel und Rafael Kapp zu Angular und Webentwicklung, gesammelt von Medium.`,
       path: '/blog',
     });
   }

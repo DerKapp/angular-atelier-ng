@@ -24,7 +24,7 @@ export class ContactForm {
 
   readonly nameError = computed(() =>
     this.touched()['name'] && this.name().trim().length === 0
-      ? 'Bitte geben Sie Ihren Namen an.'
+      ? $localize`:@@contact.error.name:Bitte geben Sie Ihren Namen an.`
       : null,
   );
 
@@ -34,18 +34,24 @@ export class ContactForm {
     }
     const value = this.email().trim();
     if (value.length === 0) {
-      return 'Bitte geben Sie Ihre E-Mail-Adresse an.';
+      return $localize`:@@contact.error.emailRequired:Bitte geben Sie Ihre E-Mail-Adresse an.`;
     }
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) {
-      return 'Bitte geben Sie eine gültige E-Mail-Adresse an.';
+      return $localize`:@@contact.error.emailInvalid:Bitte geben Sie eine gültige E-Mail-Adresse an.`;
     }
     return null;
   });
 
   readonly messageError = computed(() =>
     this.touched()['message'] && this.message().trim().length === 0
-      ? 'Bitte geben Sie eine Nachricht ein.'
+      ? $localize`:@@contact.error.message:Bitte geben Sie eine Nachricht ein.`
       : null,
+  );
+
+  readonly submitLabel = computed(() =>
+    this.status() === 'submitting'
+      ? $localize`:@@contact.submitting:Wird gesendet…`
+      : $localize`:@@contact.submit:Kontakt aufnehmen`,
   );
 
   readonly isValid = computed(

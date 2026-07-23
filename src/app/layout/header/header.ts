@@ -10,11 +10,12 @@ import {
 import { Router } from '@angular/router';
 import { ScrollService } from '../../core/services/scroll.service';
 import { NAV_ITEMS } from '../../data/nav-items';
+import { LanguageSwitcher } from '../language-switcher/language-switcher';
 import { MobileMenu } from '../mobile-menu/mobile-menu';
 
 @Component({
   selector: 'app-header',
-  imports: [MobileMenu],
+  imports: [MobileMenu, LanguageSwitcher],
   templateUrl: './header.html',
   styleUrl: './header.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -29,6 +30,14 @@ export class Header {
     () => this.navItems.find((item) => item.fragment === this.activeSection())?.label ?? '',
   );
   readonly menuOpen = signal(false);
+  readonly menuToggleLabel = computed(() =>
+    this.menuOpen()
+      ? $localize`:@@header.menuClose:Menü schliessen`
+      : $localize`:@@header.menuOpen:Menü öffnen`,
+  );
+  readonly toggleVisibleLabel = computed(() =>
+    this.menuOpen() ? $localize`:@@header.closeLabel:Schliessen` : this.activeLabel(),
+  );
   readonly toggleButton = viewChild<ElementRef<HTMLButtonElement>>('toggleButton');
 
   navigateToSection(fragment: string): void {

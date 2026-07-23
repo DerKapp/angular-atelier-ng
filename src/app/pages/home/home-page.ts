@@ -22,9 +22,8 @@ export class HomePage implements AfterViewInit {
 
   constructor() {
     this.#seo.setPage({
-      title: 'Angular Atelier – Angular-Entwicklung aus Bern',
-      description:
-        'Angular Atelier begleitet Teams und Unternehmen beim Aufbau robuster, wartbarer Angular-Architekturen – Beratung, Entwicklung, Migration und Schulungen aus Bern.',
+      title: $localize`:@@seo.home.title:Angular Atelier – Angular-Entwicklung aus Bern`,
+      description: $localize`:@@seo.home.description:Angular Atelier begleitet Teams und Unternehmen beim Aufbau robuster, wartbarer Angular-Architekturen – Beratung, Entwicklung, Migration und Schulungen aus Bern.`,
       path: '/',
     });
   }

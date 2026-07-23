@@ -14,8 +14,8 @@ export class NotFoundPage {
 
   constructor() {
     this.#seo.setPage({
-      title: 'Seite nicht gefunden – Angular Atelier',
-      description: 'Die aufgerufene Seite konnte nicht gefunden werden.',
+      title: $localize`:@@seo.notFound.title:Seite nicht gefunden – Angular Atelier`,
+      description: $localize`:@@seo.notFound.description:Die aufgerufene Seite konnte nicht gefunden werden.`,
       path: '/not-found',
     });
   }

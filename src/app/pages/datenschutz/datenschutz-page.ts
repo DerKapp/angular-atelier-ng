@@ -17,8 +17,8 @@ export class DatenschutzPage {
 
   constructor() {
     this.#seo.setPage({
-      title: 'Datenschutzerklärung – Angular Atelier',
-      description: 'Datenschutzerklärung der Angular Atelier GmbH.',
+      title: $localize`:@@seo.datenschutz.title:Datenschutzerklärung – Angular Atelier`,
+      description: $localize`:@@seo.datenschutz.description:Datenschutzerklärung der Angular Atelier GmbH.`,
       path: '/datenschutz',
     });
   }

@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, input } from '@angular/core';
 
 // TODO: temporary stand-in for a missing photo asset — replace usages of
 // this component with a plain <img> once the real file has been supplied.
@@ -18,4 +18,9 @@ export class PlaceholderPhoto {
   readonly round = input(false);
   /** Too small to fit visible caption text — keep it screen-reader-only. */
   readonly compact = input(false);
+
+  readonly ariaLabel = computed(
+    () =>
+      $localize`:@@placeholderPhoto.ariaLabel:Platzhalter – Foto von ${this.label()}:name: folgt`,
+  );
 }

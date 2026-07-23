@@ -28,13 +28,13 @@
         />
         <div>
           <p class="blog-card__author">{{ post().author }}</p>
-          <p class="blog-card__date">
+          <p class="blog-card__date" i18n="@@blogCard.dateMeta">
             {{ formattedDate() }} · {{ post().readTimeMinutes }} Min. Lesezeit
           </p>
         </div>
       </div>
     } @else {
-      <p class="blog-card__meta-line" aria-hidden="true">
+      <p class="blog-card__meta-line" aria-hidden="true" i18n="@@blogCard.metaLine">
         {{ post().author }} · {{ formattedDate() }} · {{ post().readTimeMinutes }} Min.
       </p>
     }

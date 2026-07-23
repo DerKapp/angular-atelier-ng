@@ -4,13 +4,18 @@
       class="site-header__logo"
       href="/#home"
       (click)="$event.preventDefault(); navigateToSection('home')"
+      i18n-aria-label="@@header.logoAria"
       aria-label="Angular Atelier – zur Startseite"
     >
       <span class="site-header__mark" aria-hidden="true">[()]</span>
       <span class="site-header__wordmark">Angular Atelier</span>
     </a>
 
-    <nav class="site-header__nav site-header__nav--full" aria-label="Hauptnavigation">
+    <nav
+      class="site-header__nav site-header__nav--full"
+      i18n-aria-label="@@nav.ariaLabel"
+      aria-label="Hauptnavigation"
+    >
       <ul>
         @for (item of navItems; track item.label) {
           <li>
@@ -27,30 +32,39 @@
       </ul>
     </nav>
 
-    <a
-      href="/#contact"
-      (click)="$event.preventDefault(); navigateToSection('contact')"
-      class="site-header__cta"
-    >
-      Kontakt aufnehmen
-    </a>
+    <div class="site-header__actions">
+      <app-language-switcher class="site-header__lang" />
 
-    <button
-      #toggleButton
-      type="button"
-      class="site-header__toggle"
-      (click)="toggleMenu()"
-      aria-controls="mobile-menu"
-      [attr.aria-expanded]="menuOpen()"
-      [attr.aria-label]="menuOpen() ? 'Menü schliessen' : 'Menü öffnen'"
-    >
-      <span class="site-header__toggle-label" aria-hidden="true">{{ activeLabel() }}</span>
-      <span class="site-header__toggle-icon" aria-hidden="true">
-        <span></span>
-        <span></span>
-        <span></span>
-      </span>
-    </button>
+      <a
+        href="/#contact"
+        (click)="$event.preventDefault(); navigateToSection('contact')"
+        class="site-header__cta"
+        i18n="@@header.cta"
+      >
+        Kontakt aufnehmen
+      </a>
+
+      <button
+        #toggleButton
+        type="button"
+        class="site-header__toggle"
+        (click)="toggleMenu()"
+        aria-controls="mobile-menu"
+        [attr.aria-expanded]="menuOpen()"
+        [attr.aria-label]="menuToggleLabel()"
+      >
+        <span class="site-header__toggle-label" aria-hidden="true">{{ toggleVisibleLabel() }}</span>
+        <span class="site-header__toggle-icon" aria-hidden="true">
+          @if (menuOpen()) {
+            <span class="site-header__toggle-close">×</span>
+          } @else {
+            <span></span>
+            <span></span>
+            <span></span>
+          }
+        </span>
+      </button>
+    </div>
   </div>
 
   <app-mobile-menu

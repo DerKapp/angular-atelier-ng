@@ -5,10 +5,12 @@
     class="mobile-menu"
     role="dialog"
     aria-modal="true"
+    i18n-aria-label="@@nav.ariaLabel"
     aria-label="Hauptnavigation"
     (keydown.escape)="onKeydownEscape()"
     (keydown)="onKeydown($event)"
   >
+    <app-language-switcher class="mobile-menu__lang" [full]="true" />
     <ul>
       @for (item of navItems(); track item.label) {
         <li>
@@ -27,6 +29,7 @@
       href="/#contact"
       (click)="$event.preventDefault(); onNavigate('contact')"
       class="mobile-menu__cta"
+      i18n="@@header.cta"
     >
       Kontakt aufnehmen
     </a>

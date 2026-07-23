@@ -30,6 +30,7 @@ export class SeoService {
     this.#meta.updateTag({ property: 'og:url', content: url });
     this.#meta.updateTag({ property: 'og:image', content: image });
     this.#updateCanonical(url);
+    this.#updateHreflangAlternates(page.path);
   }
 
   #updateCanonical(url: string): void {
@@ -40,5 +41,28 @@ export class SeoService {
       this.#document.head.appendChild(link);
     }
     link.setAttribute('href', url);
+  }
+
+  // German lives at the site root, English under /en — see angular.json's i18n.locales
+  // config. x-default points at the German root as the language-neutral fallback.
+  #updateHreflangAlternates(path: string): void {
+    const alternates: Record<string, string> = {
+      de: `${SITE_URL}${path}`,
+      en: `${SITE_URL}/en${path}`,
+      'x-default': `${SITE_URL}${path}`,
+    };
+
+    for (const [hreflang, href] of Object.entries(alternates)) {
+      let link: HTMLLinkElement | null = this.#document.querySelector(
+        `link[rel="alternate"][hreflang="${hreflang}"]`,
+      );
+      if (!link) {
+        link = this.#document.createElement('link');
+        link.setAttribute('rel', 'alternate');
+        link.setAttribute('hreflang', hreflang);
+        this.#document.head.appendChild(link);
+      }
+      link.setAttribute('href', href);
+    }
   }
 }
