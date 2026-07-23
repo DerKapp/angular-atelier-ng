@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="de" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="nav.home" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/nav-items.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.services" datatype="html">
+        <source>Angebot</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/nav-items.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.pricing" datatype="html">
+        <source>Preise</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/nav-items.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.aboutUs" datatype="html">
+        <source>Über Uns</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/nav-items.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.blog" datatype="html">
+        <source>Blogs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/nav-items.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.contact" datatype="html">
+        <source>Kontakt</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/nav-items.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.projektberatung.title" datatype="html">
+        <source>Projektberatung</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.projektberatung.tagline" datatype="html">
+        <source>Technische Exzellenz von Anfang an.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.projektberatung.body" datatype="html">
+        <source>Wir beraten Teams bei der Architektur von Angular Anwendungen und bei der Auswahl geeigneter Konzepte, Libraries und Tools. Dabei begleiten wir sowohl bestehende Projekte als auch Neuentwicklungen.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.projektberatung.illustrationAlt" datatype="html">
+        <source>Illustration zur Projektberatung</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.review.title" datatype="html">
+        <source>Review bestehender Projekte</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.review.tagline" datatype="html">
+        <source>Sorgfältige Analyse, klare Empfehlungen.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.review.body" datatype="html">
+        <source>Wir prüfen Ihr Angular Projekt sorgfältig auf Architektur, Performance und Best Practices. Wir identifizieren Optimierungspotenziale und geben klare, umsetzbare Empfehlungen.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.review.illustrationAlt" datatype="html">
+        <source>Illustration zum Review bestehender Projekte</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.entwicklung.title" datatype="html">
+        <source>Entwicklung auf Projektbasis</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.entwicklung.tagline" datatype="html">
+        <source>Outsourcing für Ihre Angular-Entwicklung.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.entwicklung.body" datatype="html">
+        <source>Wir entwickeln Angular-Projekte, Features oder einzelne Komponenten auf Projektbasis und übergeben produktionsreifen Code inkl. technischem Support.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.entwicklung.illustrationAlt" datatype="html">
+        <source>Illustration zur Entwicklung auf Projektbasis</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.designsystem.title" datatype="html">
+        <source>Designsystem Setup &amp; Entwicklung</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.designsystem.tagline" datatype="html">
+        <source>Einheitliches Design, effiziente Entwicklung.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.designsystem.body" datatype="html">
+        <source>Wir übernehmen das technische Setup und den Aufbau von Designsystemen – entweder komplett als Outsourcing-Projekt oder integriert als Erweiterung Ihres Teams.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.designsystem.illustrationAlt" datatype="html">
+        <source>Illustration zum Designsystem Setup &amp; Entwicklung</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.technischesSetup.title" datatype="html">
+        <source>Technisches Projekt-Setup</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.technischesSetup.tagline" datatype="html">
+        <source>Angular-Setup: Massgeschneidert &amp; startklar.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.technischesSetup.body" datatype="html">
+        <source>Wir liefern ein vollständiges technisches, auf Sie zugeschnittenes Grundgerüst für Angular-Projekte.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.technischesSetup.illustrationAlt" datatype="html">
+        <source>Illustration zum technischen Projekt-Setup</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.migration.title" datatype="html">
+        <source>Migration &amp; Modernisierung</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.migration.tagline" datatype="html">
+        <source>Fit für die Zukunft mit aktuellem Angular.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.migration.body" datatype="html">
+        <source>Wir begleiten oder übernehmen die Migration bestehender Angular-Anwendungen auf aktuelle Versionen inklusive Modernisierung veralteter Konzepte.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.migration.illustrationAlt" datatype="html">
+        <source>Illustration zur Migration &amp; Modernisierung</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.team.title" datatype="html">
+        <source>Mitarbeit in eurem Team</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.team.tagline" datatype="html">
+        <source>Gemeinsam im Team – mit Angular-Power.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.team.body" datatype="html">
+        <source>Wir arbeiten embedded im Team – remote oder vor Ort, in enger Abstimmung mit Projektleitung und Entwickler:innen. Dabei bringen wir nicht nur Geschwindigkeit, sondern auch Angular-Know-how ins Projekt.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.team.illustrationAlt" datatype="html">
+        <source>Illustration zur Mitarbeit im Team</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.schulungen.title" datatype="html">
+        <source>Schulungen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.schulungen.tagline" datatype="html">
+        <source>Wissen, das Ihr Team weiterbringt.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.schulungen.body" datatype="html">
+        <source>Wir bieten praxisnahe Angular-Schulungen – remote oder vor Ort – für Entwicklerteams mit unterschiedlichen Erfahrungsstufen, von Anfänger:innen bis Fortgeschrittenen.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.schulungen.illustrationAlt" datatype="html">
+        <source>Illustration zu Schulungen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.vortraege.title" datatype="html">
+        <source>Vorträge / Talks</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.vortraege.tagline" datatype="html">
+        <source>Impulse für Entwicklerteams.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.vortraege.body" datatype="html">
+        <source>Wir bieten gezielte Angular-Inputs für Konferenzen, interne Weiterbildungstage oder Team-Meetings. Sie wählen das Thema – oder wir schlagen passende Talks vor.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.vortraege.illustrationAlt" datatype="html">
+        <source>Illustration zu Vorträgen und Talks</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/services-data.ts</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.navAriaLabel" datatype="html">
+        <source>Footer-Navigation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.allBlogs" datatype="html">
+        <source>Alle Blogs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.allServices" datatype="html">
+        <source>Gesamtes Angebot</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.privacy" datatype="html">
+        <source>Datenschutzerklärung</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.html</context>
+          <context context-type="linenumber">20,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.logoAria" datatype="html">
+        <source>Angular Atelier – zur Startseite</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.ariaLabel" datatype="html">
+        <source>Hauptnavigation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">17,20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/mobile-menu/mobile-menu.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.cta" datatype="html">
+        <source> Kontakt aufnehmen </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">41,44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/mobile-menu/mobile-menu.html</context>
+          <context context-type="linenumber">34,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.menuClose" datatype="html">
+        <source>Menü schliessen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.menuOpen" datatype="html">
+        <source>Menü öffnen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.closeLabel" datatype="html">
+        <source>Schliessen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.backHome" datatype="html">
+        <source> ← Zurück zur Startseite </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/blog/blog-archive-page.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/datenschutz/datenschutz-page.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services-page.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="blogArchive.heading" datatype="html">
+        <source>Alle Blogs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/blog/blog-archive-page.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="blog.empty" datatype="html">
+        <source> Aktuell sind keine Blogartikel verfügbar. Schauen Sie später wieder vorbei. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/blog/blog-archive-page.html</context>
+          <context context-type="linenumber">16,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/blog-teaser/blog-teaser.html</context>
+          <context context-type="linenumber">16,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="seo.blog.title" datatype="html">
+        <source>Alle Blogs – Angular Atelier</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/blog/blog-archive-page.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="seo.blog.description" datatype="html">
+        <source>Alle Artikel von Elisa Schnabel und Rafael Kapp zu Angular und Webentwicklung, gesammelt von Medium.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/blog/blog-archive-page.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="datenschutz.heading" datatype="html">
+        <source>Datenschutzerklärung</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/datenschutz/datenschutz-page.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="datenschutz.controller.heading" datatype="html">
+        <source>Verantwortliche Stelle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/datenschutz/datenschutz-page.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="datenschutz.controller.body" datatype="html">
+        <source> Verantwortlich für die Datenbearbeitung auf dieser Website ist die Angular Atelier GmbH, Bern, Schweiz. Bei Fragen zum Datenschutz erreichen Sie uns unter <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;mailto:kontakt&amp;#64;angular-atelier.ch&quot;&gt;"/>kontakt@angular-atelier.ch<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/datenschutz/datenschutz-page.html</context>
+          <context context-type="linenumber">10,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="datenschutz.contactForm.heading" datatype="html">
+        <source> Bearbeitung Ihrer Daten über das Kontaktformular </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/datenschutz/datenschutz-page.html</context>
+          <context context-type="linenumber">16,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="datenschutz.contactForm.body" datatype="html">
+        <source> Wenn Sie unser Kontaktformular nutzen, übermitteln wir die von Ihnen eingegebenen Angaben (Name, E-Mail-Adresse, optional Firma, Nachricht) an den Formular-Dienstleister Formspree, Inc. Formspree verarbeitet diese Daten in unserem Auftrag und stellt sie uns zur Beantwortung Ihrer Anfrage zur Verfügung. Formspree hat seinen Sitz in den USA; die Datenbearbeitung kann daher auch ausserhalb der Schweiz und der EU erfolgen. Weitere Informationen finden Sie in der Datenschutzerklärung von Formspree. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/datenschutz/datenschutz-page.html</context>
+          <context context-type="linenumber">19,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="datenschutz.medium.heading" datatype="html">
+        <source>Verlinkung zu Medium</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/datenschutz/datenschutz-page.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="datenschutz.medium.body" datatype="html">
+        <source> Auf dieser Website verweisen wir auf Blogartikel, die wir auf der Plattform Medium veröffentlichen. Beim Anklicken eines solchen Links verlassen Sie unsere Website und es gelten die Datenschutzbestimmungen von Medium. Wir binden keine Medium-Inhalte direkt (z. B. per iframe) ein, die Artikeltexte und -bilder werden lediglich zur Build-Zeit für die Vorschau auf dieser Website verwendet. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/datenschutz/datenschutz-page.html</context>
+          <context context-type="linenumber">29,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="datenschutz.hosting.heading" datatype="html">
+        <source>Hosting und Server-Logs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/datenschutz/datenschutz-page.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="datenschutz.hosting.body" datatype="html">
+        <source> Diese Website wird als statische Website ausgeliefert. Der Hosting-Anbieter erhebt dabei automatisch technische Zugriffsdaten (z. B. IP-Adresse, Datum und Uhrzeit des Zugriffs, angeforderte Datei, verwendeter Browser), wie dies bei jedem Website-Aufruf technisch üblich ist. Diese Daten dienen der Gewährleistung eines störungsfreien Betriebs und der Sicherheit unserer Website. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/datenschutz/datenschutz-page.html</context>
+          <context context-type="linenumber">38,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="datenschutz.rights.heading" datatype="html">
+        <source>Ihre Rechte</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/datenschutz/datenschutz-page.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="datenschutz.rights.body" datatype="html">
+        <source> Sie haben das Recht, Auskunft über die von uns bearbeiteten Personendaten zu verlangen sowie deren Berichtigung, Löschung oder Einschränkung der Bearbeitung zu beantragen, soweit die gesetzlichen Voraussetzungen erfüllt sind. Wenden Sie sich dazu an <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;mailto:kontakt&amp;#64;angular-atelier.ch&quot;&gt;"/>kontakt@angular-atelier.ch<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/datenschutz/datenschutz-page.html</context>
+          <context context-type="linenumber">47,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="datenschutz.changes.heading" datatype="html">
+        <source>Änderungen dieser Datenschutzerklärung</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/datenschutz/datenschutz-page.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="datenschutz.changes.body" datatype="html">
+        <source> Wir behalten uns vor, diese Datenschutzerklärung anzupassen, sobald dies aufgrund geänderter Rechtslage oder Änderungen der Website erforderlich wird. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/datenschutz/datenschutz-page.html</context>
+          <context context-type="linenumber">55,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="seo.datenschutz.title" datatype="html">
+        <source>Datenschutzerklärung – Angular Atelier</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/datenschutz/datenschutz-page.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="seo.datenschutz.description" datatype="html">
+        <source>Datenschutzerklärung der Angular Atelier GmbH.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/datenschutz/datenschutz-page.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="seo.home.title" datatype="html">
+        <source>Angular Atelier – Angular-Entwicklung aus Bern</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home-page.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="seo.home.description" datatype="html">
+        <source>Angular Atelier begleitet Teams und Unternehmen beim Aufbau robuster, wartbarer Angular-Architekturen – Beratung, Entwicklung, Migration und Schulungen aus Bern.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home-page.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutUs.heading" datatype="html">
+        <source> Angular Atelier – das sind Elisa und Rafael </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/about-us/about-us.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutUs.intro" datatype="html">
+        <source> Wir sind Angular-Entwickler:innen aus Bern und haben uns vor einigen Jahren kennengelernt. Dabei haben wir schnell gemerkt, dass wir fachlich wie auch persönlich hervorragend zusammenarbeiten und sich unser Know-how ideal ergänzt. Deshalb ist es uns besonders wichtig, uns bei jedem Auftrag eng miteinander abzustimmen, um die bestmögliche Lösung für unsere Kund:innen zu entwickeln. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/about-us/about-us.html</context>
+          <context context-type="linenumber">9,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutUs.contactLine" datatype="html">
+        <source> Kontakt: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [href]=&quot;&apos;mailto:&apos; + contactEmail&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ contactEmail }}"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/about-us/about-us.html</context>
+          <context context-type="linenumber">16,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutUs.teamPhotoAlt" datatype="html">
+        <source>Elisa und Rafael</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/about-us/about-us.html</context>
+          <context context-type="linenumber">23,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutUs.elisa.experience" datatype="html">
+        <source> 7+ Jahre Erfahrung </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/about-us/about-us.html</context>
+          <context context-type="linenumber">34,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutUs.elisa.education" datatype="html">
+        <source> Bachelor Informatik </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/about-us/about-us.html</context>
+          <context context-type="linenumber">37,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutUs.elisa.description" datatype="html">
+        <source> In zahlreichen Projekten habe ich den Aufbau und die Wartung von Designsystemen / Komponentenbibliotheken mitgestaltet. Ausserdem begleite und bewerte ich als Expertin die praktischen Abschlussarbeiten angehender Informatiker:innen. Nebenbei veröffentliche ich auf Medium Artikel zu Angular-Themen, die mir in meinem Entwickleralltag begegnen. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/about-us/about-us.html</context>
+          <context context-type="linenumber">42,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutUs.rafael.experience" datatype="html">
+        <source> 10+ Jahre Erfahrung </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/about-us/about-us.html</context>
+          <context context-type="linenumber">55,57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutUs.rafael.education" datatype="html">
+        <source> Master Software Engineering </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/about-us/about-us.html</context>
+          <context context-type="linenumber">58,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutUs.rafael.description" datatype="html">
+        <source> Ich verfolge Angular seit den frühen Tagen und teile mein Wissen regelmässig als aktiver Autor. Meine Leidenschaft für sauberen Code, nachhaltige Architektur und pragmatische Lösungen macht mich zu einem qualifizierten Partner für jedes Angular-Projekt. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/about-us/about-us.html</context>
+          <context context-type="linenumber">63,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="blogTeaser.heading" datatype="html">
+        <source>Die neusten Blogs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/blog-teaser/blog-teaser.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="blogTeaser.intro" datatype="html">
+        <source> Unsere neusten Artikel, Neuigkeiten und Tipps rund um Angular und Webentwicklung. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/blog-teaser/blog-teaser.html</context>
+          <context context-type="linenumber">5,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="blogTeaser.allLink" datatype="html">
+        <source> Alle weiteren Blogs finden Sie hier → </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/blog-teaser/blog-teaser.html</context>
+          <context context-type="linenumber">21,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.heading" datatype="html">
+        <source>Kontakt</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/contact/contact-form.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.intro" datatype="html">
+        <source> Lassen Sie uns über Ihr Projekt sprechen. Im Angular-Atelier gestalten wir gemeinsam Projekte, Reviews und Schulungen. Erzählen Sie uns, wobei wir Sie unterstützen können. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/contact/contact-form.html</context>
+          <context context-type="linenumber">6,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.field.name" datatype="html">
+        <source> Name <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>*<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/contact/contact-form.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.field.company" datatype="html">
+        <source>Firma</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/contact/contact-form.html</context>
+          <context context-type="linenumber">55,57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.field.message" datatype="html">
+        <source> Nachricht <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>*<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/contact/contact-form.html</context>
+          <context context-type="linenumber">68,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.status.success" datatype="html">
+        <source> Vielen Dank für Ihre Nachricht! Wir melden uns in Kürze bei Ihnen. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/contact/contact-form.html</context>
+          <context context-type="linenumber">103,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.status.error" datatype="html">
+        <source> Leider ist beim Senden etwas schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt eine E-Mail. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/contact/contact-form.html</context>
+          <context context-type="linenumber">108,110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.error.name" datatype="html">
+        <source>Bitte geben Sie Ihren Namen an.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/contact/contact-form.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.error.emailRequired" datatype="html">
+        <source>Bitte geben Sie Ihre E-Mail-Adresse an.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/contact/contact-form.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.error.emailInvalid" datatype="html">
+        <source>Bitte geben Sie eine gültige E-Mail-Adresse an.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/contact/contact-form.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.error.message" datatype="html">
+        <source>Bitte geben Sie eine Nachricht ein.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/contact/contact-form.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.submitting" datatype="html">
+        <source>Wird gesendet…</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/contact/contact-form.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.submit" datatype="html">
+        <source>Kontakt aufnehmen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/contact/contact-form.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.badge" datatype="html">
+        <source>Angular Beratung · Bern</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/hero/hero.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.heading" datatype="html">
+        <source> Angular wie im <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hero__accent&quot;&gt;"/>Atelier<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/hero/hero.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.intro" datatype="html">
+        <source> Wir unterstützen Teams und Unternehmen beim Aufbau robuster, wartbarer Angular-Architekturen, unabhängig von Grösse oder Branche. Genau wie in einem echten Atelier entsteht jede Lösung individuell – ohne technische Schulden, ohne unnötige Abhängigkeiten, mit einem klaren Fokus auf Erweiterbarkeit und darauf, dass gute Ideen schnell zu funktionierenden Anwendungen werden. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/hero/hero.html</context>
+          <context context-type="linenumber">9,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.cta" datatype="html">
+        <source> Kostenloses Erstgespräch buchen </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/hero/hero.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.trust.experience" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hero__trust-dot&quot; aria-hidden=&quot;true&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>10+ Jahre Angular-Erfahrung </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/hero/hero.html</context>
+          <context context-type="linenumber">20,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.trust.education" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hero__trust-dot&quot; aria-hidden=&quot;true&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>Bachelor &amp; Master in Informatik </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/hero/hero.html</context>
+          <context context-type="linenumber">23,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.trust.authors" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;hero__trust-dot&quot; aria-hidden=&quot;true&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>Aktive Fachautoren auf Medium </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/hero/hero.html</context>
+          <context context-type="linenumber">27,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.imageAlt" datatype="html">
+        <source>Illustration eines Angular-Ateliers mit stilisierten Entwicklungswerkzeugen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/hero/hero.html</context>
+          <context context-type="linenumber">35,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pricing.heading" datatype="html">
+        <source>Preise</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/pricing/pricing.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pricing.intro" datatype="html">
+        <source> Transparenz ist uns wichtig – deshalb sehen Sie hier unsere Preise auf einen Blick. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/pricing/pricing.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pricing.hourlyLabel" datatype="html">
+        <source>Stundenansatz</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/pricing/pricing.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pricing.hourlyValue" datatype="html">
+        <source>ab CHF 200.–</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/pricing/pricing.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pricing.vatNote" datatype="html">
+        <source>exkl. MWST.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/pricing/pricing.html</context>
+          <context context-type="linenumber">12,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.heading" datatype="html">
+        <source>Angebot</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/services/services.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.allLink" datatype="html">
+        <source> Alle Leistungen ansehen → </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/sections/services/services.html</context>
+          <context context-type="linenumber">12,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="notFound.heading" datatype="html">
+        <source>Seite nicht gefunden</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/not-found/not-found-page.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="notFound.body" datatype="html">
+        <source> Die aufgerufene Seite existiert leider nicht oder wurde verschoben. Vielleicht hilft Ihnen einer dieser Links weiter. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/not-found/not-found-page.html</context>
+          <context context-type="linenumber">6,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="notFound.backLink" datatype="html">
+        <source>Zurück zur Startseite</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/not-found/not-found-page.html</context>
+          <context context-type="linenumber">9,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="seo.notFound.title" datatype="html">
+        <source>Seite nicht gefunden – Angular Atelier</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/not-found/not-found-page.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="seo.notFound.description" datatype="html">
+        <source>Die aufgerufene Seite konnte nicht gefunden werden.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/not-found/not-found-page.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="servicesPage.heading" datatype="html">
+        <source>Unser Angebot</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services-page.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="seo.services.title" datatype="html">
+        <source>Unser Angebot – Angular Atelier</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services-page.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="seo.services.description" datatype="html">
+        <source>Alle Leistungen von Angular Atelier: Projektberatung, Reviews, Entwicklung, Designsysteme, Migrationen, Schulungen und mehr.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services-page.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="blogCard.dateMeta" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{ formattedDate() }}"/> · <x id="INTERPOLATION_1" equiv-text="{{ post().readTimeMinutes }}"/> Min. Lesezeit </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/ui/blog-card/blog-card.html</context>
+          <context context-type="linenumber">32,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="blogCard.metaLine" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{ post().author }}"/> · <x id="INTERPOLATION_1" equiv-text="{{ formattedDate() }}"/> · <x id="INTERPOLATION_2" equiv-text="{{ post().readTimeMinutes }}"/> Min. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/ui/blog-card/blog-card.html</context>
+          <context context-type="linenumber">38,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="blogCard.accessibleLabel" datatype="html">
+        <source><x id="title" equiv-text="this.post().title"/> – ganzer Artikel auf Medium lesen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/ui/blog-card/blog-card.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="placeholderPhoto.caption" datatype="html">
+        <source>Foto folgt: <x id="INTERPOLATION" equiv-text="{{ label() }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/ui/placeholder-photo/placeholder-photo.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/ui/placeholder-photo/placeholder-photo.html</context>
+          <context context-type="linenumber">6,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="placeholderPhoto.ariaLabel" datatype="html">
+        <source>Platzhalter – Foto von <x id="name" equiv-text="this.label()"/> folgt</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/ui/placeholder-photo/placeholder-photo.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
