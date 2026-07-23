@@ -1,5 +1,8 @@
 // SCSS-level breakpoints for media queries (CSS custom properties can't be
 // used inside @media conditions, so these stay as plain SCSS variables).
+// Matches fluid.scale()'s own min-vw (25rem) — the point below which section
+// padding stops shrinking further.
+$breakpoint-xs: 400px;
 $breakpoint-sm: 480px;
 $breakpoint-md: 768px;
 $breakpoint-lg: 1024px;

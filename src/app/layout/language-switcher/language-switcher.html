@@ -1,0 +1,26 @@
+<div
+  class="language-switcher"
+  [class.language-switcher--full]="full()"
+  role="group"
+  [attr.aria-label]="isGerman ? 'Sprache' : 'Language'"
+>
+  @if (isGerman) {
+    <span class="language-switcher__option is-active" aria-current="true">
+      {{ full() ? 'Deutsch' : 'DE' }}
+    </span>
+    <a class="language-switcher__option" [href]="otherLocaleHref()" aria-label="Switch to English">
+      {{ full() ? 'English' : 'EN' }}
+    </a>
+  } @else {
+    <a
+      class="language-switcher__option"
+      [href]="otherLocaleHref()"
+      aria-label="Zur deutschen Version wechseln"
+    >
+      {{ full() ? 'Deutsch' : 'DE' }}
+    </a>
+    <span class="language-switcher__option is-active" aria-current="true">
+      {{ full() ? 'English' : 'EN' }}
+    </span>
+  }
+</div>
